@@ -1,0 +1,249 @@
+{
+  "topic": "The last slice of pizza takes you to court",
+  "title": "The People v. One Hungry Guy",
+  "route": "Object comedy \u2022 courtroom reversal",
+  "hook": "The last slice sues Dex for eating its father.",
+  "payoff": "A delivery guarantee frees him; his victory snack starts the next case.",
+  "cast": [
+    {
+      "id": "Dex",
+      "role": "the hungry defendant and first-person narrator",
+      "design": "Orange hoodie, teal cap, oval eyes, one crooked lace",
+      "voice": "am_michael"
+    },
+    {
+      "id": "Slice",
+      "role": "the furious plaintiff",
+      "design": "Pepperoni triangle, basil tie, one missing corner, arched brows",
+      "voice": "am_onyx"
+    },
+    {
+      "id": "Judge",
+      "role": "the judge and oven timer",
+      "design": "Copper oven, dial eyes and a black robe; door doubles as the mouth",
+      "voice": "am_fenrir"
+    },
+    {
+      "id": "Jury",
+      "role": "twelve silent garlic knots",
+      "design": "Three rows of four braided rolls with tiny eyebrows",
+      "voice": "af_bella"
+    }
+  ],
+  "scenes": [
+    {
+      "setting": "Midnight slice court",
+      "camera": "Low counter angle, ease toward the plaintiff at the first accusation.",
+      "elements": [
+        "pizza box witness stand",
+        "brass service bell",
+        "plaintiff slice",
+        "Dex",
+        "neon shop window"
+      ],
+      "cast": [
+        "Dex",
+        "Slice"
+      ],
+      "action": "Dex reaches across a pizza box. The last slice stands up inside it and slides a court summons toward his hand.",
+      "beats": [
+        {
+          "id": "summons",
+          "speaker": "Dex",
+          "line": "My pizza sued me.",
+          "visual": "The lid springs open. Slice pops up with the summons.",
+          "sfx": "thump",
+          "hit": 0.15
+        },
+        {
+          "id": "dad",
+          "speaker": "Slice",
+          "line": "[deadpan] You ate my dad.",
+          "visual": "Slice points at Dex. Dex freezes halfway to the box.",
+          "sfx": "none",
+          "hit": 0
+        }
+      ]
+    },
+    {
+      "setting": "Evidence table",
+      "camera": "Cut to an overhead exhibit. Crash in toward the greasy fingerprint.",
+      "elements": [
+        "empty dinner plate",
+        "triangular grease print",
+        "red exhibit tag",
+        "magnifying glass"
+      ],
+      "cast": [
+        "Dex"
+      ],
+      "action": "A magnifier follows the pizza-shaped grease print to Dex\u2019s fingerprint.",
+      "beats": [
+        {
+          "id": "plate",
+          "speaker": "Dex",
+          "line": "Exhibit A. My dinner plate.",
+          "visual": "The exhibit card skids onto the wood beside an empty plate.",
+          "sfx": "stamp",
+          "hit": 0.18
+        },
+        {
+          "id": "print",
+          "speaker": "Dex",
+          "line": "[whispering] I licked off the fingerprints.",
+          "visual": "A magnifier sweeps across the grease. The last print vanishes.",
+          "sfx": "swish",
+          "hit": 0.4
+        }
+      ]
+    },
+    {
+      "setting": "Garlic jury box",
+      "camera": "Rack the composition upward through the rows. End on the foreman.",
+      "elements": [
+        "twelve braided garlic knots",
+        "three tiers of wood",
+        "one basil leaf per juror"
+      ],
+      "cast": [
+        "Dex",
+        "Jury"
+      ],
+      "action": "Jurors rise in sequence. The foreman deliberately turns his back on Dex.",
+      "beats": [
+        {
+          "id": "peers",
+          "speaker": "Dex",
+          "line": "I demanded a jury of my peers.",
+          "visual": "Twelve little silhouettes stir behind the jury rail.",
+          "sfx": "none",
+          "hit": 0
+        },
+        {
+          "id": "knots",
+          "speaker": "Dex",
+          "line": "Twelve garlic knots stood up.",
+          "visual": "Three rows stand one after another, then glare.",
+          "sfx": "thump",
+          "hit": 0.5
+        },
+        {
+          "id": "garlic",
+          "speaker": "Dex",
+          "line": "[deadpan] Tough room. I had garlic breath.",
+          "visual": "A green breath curl drifts past the foreman; all twelve recoil.",
+          "sfx": "none",
+          "hit": 0
+        }
+      ]
+    },
+    {
+      "setting": "The oven takes the bench",
+      "camera": "Hard cut to a symmetrical front view of the judge; push toward the timer.",
+      "elements": [
+        "copper oven judge",
+        "heat coils",
+        "timer display",
+        "judge\u2019s robe",
+        "ticket"
+      ],
+      "cast": [
+        "Judge",
+        "Dex"
+      ],
+      "action": "The judge opens the oven door. The timer starts, overshoots, and gives Dex an idea.",
+      "beats": [
+        {
+          "id": "oven",
+          "speaker": "Judge",
+          "line": "[shouting] Thirty minutes in the oven!",
+          "visual": "The door opens, showing orange coils and a thirty-minute dial.",
+          "sfx": "stamp",
+          "hit": 0.2
+        },
+        {
+          "id": "wait",
+          "speaker": "Dex",
+          "line": "[gasp] Wait. The timer says thirty-one.",
+          "visual": "The last digit flips. Dex looks from the clock to the box.",
+          "sfx": "ping",
+          "hit": 0.28
+        }
+      ]
+    },
+    {
+      "setting": "The guarantee",
+      "camera": "Overhead close-up. Track the tapping finger to the printed guarantee.",
+      "elements": [
+        "pizza box lid",
+        "printed guarantee",
+        "late order receipt",
+        "teal approval stamp"
+      ],
+      "cast": [
+        "Dex",
+        "Judge"
+      ],
+      "action": "Dex flips the box lid and invokes the delivery rule. The judge stamps the ticket.",
+      "beats": [
+        {
+          "id": "box",
+          "speaker": "Dex",
+          "line": "Their box had a guarantee.",
+          "visual": "The lid unfolds, revealing its original printed rule.",
+          "sfx": "swish",
+          "hit": 0.25
+        },
+        {
+          "id": "free",
+          "speaker": "Dex",
+          "line": "Thirty minutes or I go free.",
+          "visual": "Dex taps FREE. A receipt gets stamped RELEASED.",
+          "sfx": "stamp",
+          "hit": 0.62
+        },
+        {
+          "id": "case",
+          "speaker": "Judge",
+          "line": "[sighing] Case dismissed.",
+          "visual": "The receipt bounces once while the oven light fades.",
+          "sfx": "ping",
+          "hit": 0.3
+        }
+      ]
+    },
+    {
+      "setting": "The next plaintiff",
+      "camera": "Match the opening box angle. Rack focus from a snapped breadstick to a fresh summons.",
+      "elements": [
+        "striped bread bag",
+        "snapped breadstick",
+        "tiny briefcase",
+        "fresh summons",
+        "Dex"
+      ],
+      "cast": [
+        "Dex"
+      ],
+      "action": "Dex celebrates with one bite. The bitten breadstick already has legal representation.",
+      "beats": [
+        {
+          "id": "bite",
+          "speaker": "Dex",
+          "line": "I celebrated with a breadstick.",
+          "visual": "The breadstick cracks into two pieces in front of Dex.",
+          "sfx": "crunch",
+          "hit": 0.53
+        },
+        {
+          "id": "lawyer",
+          "speaker": "Dex",
+          "line": "[laughing] It already had a lawyer.",
+          "visual": "The bitten end raises a briefcase. A fresh summons lands in the opening position.",
+          "sfx": "stamp",
+          "hit": 0.72
+        }
+      ]
+    }
+  ]
+}

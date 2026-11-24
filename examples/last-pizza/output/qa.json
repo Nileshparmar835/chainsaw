@@ -1,0 +1,29 @@
+{
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "frames": 830,
+  "audio_seconds": 27.669,
+  "video_seconds": 27.667,
+  "decoded_audio_rms": 0.1386,
+  "decoded_peak": 0.8495,
+  "motion_per_beat": {
+    "summons": 21.47,
+    "dad": 12.5,
+    "plate": 73.18,
+    "print": 12.32,
+    "peers": 68.23,
+    "knots": 17.5,
+    "garlic": 11.71,
+    "oven": 10.1,
+    "wait": 14.27,
+    "box": 53.01,
+    "free": 14.97,
+    "case": 2.65,
+    "bite": 71.21,
+    "lawyer": 15.01
+  },
+  "review": "Automated decode checks. Inspect timing, acting and sound separately."
+}
